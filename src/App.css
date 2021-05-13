@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+
+}
+
+body {
+  font-family: 'Itim', cursive;
+
+
+
+
+}
+
+.header__container {
+display: flex;
+ justify-content: space-between;
+align-items: center;
+ height: 100%;
+ font-family: 'Itim', cursive;
+ color: brown;
+
+}
+
+.logo {
+font-family: 'Itim', cursive;;
+font-size: 2rem;
+font-weight: 300;
+color: #6F39AC;
+
+}
+
+.header__nav {
+display: flex;
+
+}
+
+.nav__link {
+color: grey;
+font-weight: 700;
+font-size: 0.6875rem;
+text-transform: uppercase;
+ padding: 28px 18px 22px;
+border-bottom: 4px solid transparent;
+letter-spacing: 0.1875rem;
+
+}
+
+
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+
+}
+.dropdown a :hover {
+  background-color: #f1f1f1
+
+}
+
+.drop :hover .dropdown {
+  display:block;
+} 
+
+
+.service {
+  color: blue;
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  margin-left:1px;
+
+
+}
+
+.service :hover {
+  color: red;
+
+
+}
+
+.nav__element {
+padding: 0 26px;
+
+}
+
+.nav__element:last-child {
+padding-right: 0;
+
+}
+
+.nav__link:hover {
+ color: black;
+
+
+}
+
+
+.OpeningPage {
+height:400px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.Title {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em
+  
+
+
+
+}
+
+img {
+  max-width:1000px ;
+  background-size: contain;
+  margin-left: 150px;
+
+
+
+}
+
+.searcher {
+
+
+height: 600px;
+
+
+}
+
+.Searching_form {
+display: flex;
+flex-direction: column;
+
+}
+
+.Jobs {
+ width: 120px;
+ height:40px;
+ justify-content: center;
+ margin-bottom: 20px;
+ margin-top: 20px;
+
+
+
+}
