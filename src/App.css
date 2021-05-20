@@ -3,7 +3,7 @@
 }
 
 .container {
-  width: 1250px;
+  width: 1000px;
   margin: 0 auto;
 
 }
@@ -22,7 +22,8 @@ display: flex;
 align-items: center;
  height: 100%;
  font-family: 'Itim', cursive;
- color: brown;
+ color:brown;
+ 
 
 }
 
@@ -36,6 +37,11 @@ color: #6F39AC;
 
 .header__nav {
 display: flex;
+background-color: #faca2a;
+border-radius: 50 50 50 50;
+border-radius: 40px;
+box-shadow: 2px 3px 6px black;
+
 
 }
 
@@ -129,7 +135,8 @@ flex-direction: column;
 
 .Title {
   color: white;
-  text-shadow: black 0.1em 0.1em 0.2em
+  text-shadow: black 0.1em 0.1em 0.2em;
+  
   
 
 
@@ -169,3 +176,58 @@ flex-direction: column;
 
 
 }
+
+.form_Elektryk {
+padding-left: 400px;
+ padding-top: 200px;
+
+
+
+}
+
+.function {
+
+  margin-top: 60px;
+  height: 450px;
+  width: 1000px;
+  background-image: url('3506328.jpg');
+  background-size:contain;
+  border-radius: 40px;
+  box-shadow: 2px 3px 6px black;
+  padding-right: 30px;
+
+
+
+
+};
+
+
+.form_e {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+  width: 50%;
+
+
+}
+
+.Price {
+
+  margin-bottom: 30px;
+
+
+
+
+}
+
+.form {
+  
+
+
+
+
+
+}
+
