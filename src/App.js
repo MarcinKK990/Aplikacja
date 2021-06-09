@@ -6,15 +6,15 @@ import {
   useParams,
   NavLink as Link,
 } from "react-router-dom";
-import Elektryk from "./Elektryk";
-import Hydraulik from "./Hydraulik";
-import Slusarz from "./Slusarz";
-import Niania from "./Niania";
-import Ogrodnik from "./Ogrodnik";
+import Elektryk from "./components/Elektryk";
+import Hydraulik from "./components/Hydraulik";
+import Slusarz from "./components/Slusarz";
+import Niania from "./components/Niania";
+import Ogrodnik from "./components/Ogrodnik";
+//import Wrapper from "./components/Wrapper";
+import Main from "./components/main";
 
-
-
-function Child() {
+function Wrapper() {
   let { id } = useParams();
 
   return (
@@ -28,74 +28,43 @@ function Child() {
   );
 }
 
-function Main() {
-  return (
-    <main>
-      <div class="main-container container">
-        <div
-          className="OpeningPage"
-        >
-          <div className="Title">
-            <h1> A Ty? Czyjej pomocy potrzebujesz ?</h1>
-          </div>
-          <div className="Searching_form"></div>
-        </div>
-      </div>
-    </main>
-  );
-}
-
-
-
-
-
-
 function App() {
-
-  let { id } = useParams();
-
-  const API = "http://localhost:3001";
- 
-  fetch(`${API}/${id}`)
-  .then(resp => resp.json())
-  .then(data => {
-    setOcupations(data)
-  })
-
-  
-  
   return (
     <>
-      <header class="header">
-        <div className="header__container container">
-          <nav>
+      <Router>
+        <header>
+          <div className="header__container container">
+            <h1 className="logo">Searcher</h1>
             <ul className="header__nav">
               <div className="drop">
                 <li className="nav__element">
                   <a href="#who" class="nav__link">
                     Kogo szukasz
                   </a>
-                  <Router>
-                    <div className="dropdown">
-                      <Link to="/Elektryk">Elektryk</Link>
-                      <Link to="/Hydraulik">Hydraulik</Link>
-                      <Link to="/Sluzarz">Slusarz</Link>
-                      <Link to="/Niania">Niania</Link>
-                      <Link to="/Ogrodnik">Ogrodnik</Link>
-                    </div>
-                    <div className="function">
-                    <Switch>
-                      <Route exact path="/" children={<Main />} />
-                      <Route exact path="/:id" children={<Child />} />
-                    </Switch>
-                    </div>
-                  </Router>
+                  <div className="dropdown">
+                    <Link to="/Elektryk">Elektryk</Link>
+                    <Link to="/Hydraulik">Hydraulik</Link>
+                    <Link to="/Sluzarz">Slusarz</Link>
+                    <Link to="/Niania">Niania</Link>
+                    <Link to="/Ogrodnik">Ogrodnik</Link>
+                  </div>
                 </li>
               </div>
+              <li>hh</li>
+              <li>hh</li>
             </ul>
-          </nav>
-        </div>
-      </header>
+          </div>
+        </header>
+        <main className="main container">
+          <div className="function">
+            <Switch>
+              <Route exact path="/" children={<Main />} />
+              <Route exact path="/:id" children={<Wrapper />} />
+            </Switch>
+          </div>
+        </main>
+        <footer></footer>
+      </Router>
     </>
   );
 }
