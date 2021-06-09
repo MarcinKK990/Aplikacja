@@ -2,22 +2,20 @@
   "Elektryk": [
     {
       "name": "Jan Kowalski", "price": "60","usługa": "montaż gniazdka"
-    }
+    },
     {
       "name": "Tadeusz S", "price": "160","usługa": "montaż gniazdka"
-    }
+    },
     {
       "name": "Marian P", "price": "50","usługa": "montaż gniazdka"
-    }
+    },
     {
       "name": "Andrzej W", "price": "960","usługa": "montaż gniazdka"
-    }
+    },
     {
       "name": "Mateusz K", "price": "20","usługa": "montaż gniazdka"
     }
-
-  ],
-
+  ]
 }
   
  

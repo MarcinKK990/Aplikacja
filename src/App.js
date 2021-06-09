@@ -3,30 +3,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  useParams,
   NavLink as Link,
 } from "react-router-dom";
-import Elektryk from "./components/Elektryk";
-import Hydraulik from "./components/Hydraulik";
-import Slusarz from "./components/Slusarz";
-import Niania from "./components/Niania";
-import Ogrodnik from "./components/Ogrodnik";
-//import Wrapper from "./components/Wrapper";
+import Wrapper from "./components/Wrapper";
 import Main from "./components/main";
-
-function Wrapper() {
-  let { id } = useParams();
-
-  return (
-    <div className="container">
-      {id === "Elektryk" && <Elektryk />}
-      {id === "Hydraulik" && <Hydraulik />}
-      {id === "Slusarz" && <Slusarz />}
-      {id === "Niania" && <Niania />}
-      {id === "Ogrodnik" && <Ogrodnik />}
-    </div>
-  );
-}
 
 function App() {
   return (
@@ -44,7 +24,7 @@ function App() {
                   <div className="dropdown">
                     <Link to="/Elektryk">Elektryk</Link>
                     <Link to="/Hydraulik">Hydraulik</Link>
-                    <Link to="/Sluzarz">Slusarz</Link>
+                    <Link to="/Slusarz">Slusarz</Link>
                     <Link to="/Niania">Niania</Link>
                     <Link to="/Ogrodnik">Ogrodnik</Link>
                   </div>

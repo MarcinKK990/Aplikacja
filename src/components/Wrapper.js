@@ -1,10 +1,10 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  useParams,
-  NavLink as Link,
-} from "react-router-dom";
+import React from "react";
+import { useParams } from "react-router-dom";
+import Elektryk from "./Elektryk";
+import Hydraulik from "./Hydraulik";
+import Slusarz from "./Slusarz";
+import Niania from "./Niania";
+import Ogrodnik from "./Ogrodnik";
 
 function Wrapper() {
   let { id } = useParams();

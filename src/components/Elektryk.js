@@ -22,7 +22,7 @@ function Elektryk() {
               {data.length ? (
                 <select>
                   {data.map((el) => {
-                    return <option>{el}</option>;
+                    return <option>{el.name}</option>;
                   })}
                 </select>
               ) : (
