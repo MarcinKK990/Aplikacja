@@ -6,7 +6,7 @@ function Main() {
           <div className="Title">
             <h1> A Ty? Czyjej pomocy potrzebujesz ?</h1>
           </div>
-          <div className="Searching_form">{fetch}</div>
+          <div className="Searching_form"></div>
         </div>
       </div>
     </main>

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,11 +22,11 @@ function App() {
                     Kogo szukasz
                   </a>
                   <div className="dropdown">
-                    <Link to="/Elektryk">Elektryk</Link>
-                    <Link to="/Hydraulik">Hydraulik</Link>
-                    <Link to="/Slusarz">Slusarz</Link>
-                    <Link to="/Niania">Niania</Link>
-                    <Link to="/Ogrodnik">Ogrodnik</Link>
+                    <Link to="/Elektrycy">Elektryk</Link>
+                    <Link to="/Hydraulicy">Hydraulik</Link>
+                    <Link to="/Slusarze">Slusarz</Link>
+                    <Link to="/Nianie">Niania</Link>
+                    <Link to="/Ogrodnicy">Ogrodnik</Link>
                   </div>
                 </li>
               </div>

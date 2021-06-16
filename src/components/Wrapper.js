@@ -11,11 +11,11 @@ function Wrapper() {
 
   return (
     <div className="container">
-      {id === "Elektryk" && <Elektryk />}
-      {id === "Hydraulik" && <Hydraulik />}
-      {id === "Slusarz" && <Slusarz />}
-      {id === "Niania" && <Niania />}
-      {id === "Ogrodnik" && <Ogrodnik />}
+      {id === "Elektrycy" && <Elektryk />}
+      {id === "Hydraulicy" && <Hydraulik />}
+      {id === "Slusarze" && <Slusarz />}
+      {id === "Nianie" && <Niania />}
+      {id === "Ogrodnicy" && <Ogrodnik />}
     </div>
   );
 }
