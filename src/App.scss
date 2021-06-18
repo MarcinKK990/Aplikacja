@@ -167,6 +167,7 @@ img {
   justify-content: space-around;
   height: 50%;
   width: 50%;
+  padding-right: 50px;
 }
 
 .Price {
@@ -179,4 +180,13 @@ img {
 
 .a {
   background: blue;
+}
+
+.kkk {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aaa {
+  margin-right: 150px;
 }
