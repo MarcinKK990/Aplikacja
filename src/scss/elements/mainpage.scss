@@ -1,0 +1,32 @@
+.OpeningPage {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Title {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin: 320px;
+}
+
+.main {
+  height: 500px;
+  width: 100%;
+  background-image: url("../../assets/jeshoots-com-VdOO4_HFTWM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 3px 6px black;
+  padding-right: 30px;
+  padding-left: 40px;
+}
+
+.function {
+  color: black;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}

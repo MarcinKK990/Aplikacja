@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
 import Main from "./components/main";
+import Choice from "./components/Choice";
+import Choice_two from "./components/Choice_two";
+import Choice_three from "./components/Choice_three";
 
 function App() {
   return (
@@ -19,10 +22,12 @@ function App() {
               <div className="drop">
                 <li className="nav__element">
                   <a href="#who" class="nav__link">
-                    Kogo szukasz
+                    Kogo szukasz ?
                   </a>
                   <div className="dropdown">
-                    <Link to="/Elektrycy">Elektryk</Link>
+                    <li className="dropdown_li">
+                      <Link to="/Elektrycy">Elektryk</Link>
+                    </li>
                     <Link to="/Hydraulicy">Hydraulik</Link>
                     <Link to="/Slusarze">Slusarz</Link>
                     <Link to="/Nianie">Niania</Link>
@@ -30,8 +35,6 @@ function App() {
                   </div>
                 </li>
               </div>
-              <li>hh</li>
-              <li>hh</li>
             </ul>
           </div>
         </header>
@@ -40,6 +43,9 @@ function App() {
             <Switch>
               <Route exact path="/" children={<Main />} />
               <Route exact path="/:id" children={<Wrapper />} />
+              <Route exact path="/Choice" children={<Choice />} />
+              <Route exact path="/Choice_two" children={<Choice_two />} />
+              <Route exact path="/Choice_three" children={<Choice_three />} />
             </Switch>
           </div>
         </main>

@@ -1,166 +1,363 @@
 {
-  "Elektrycy": [
-    {
-      "name": "Jan Kowalski",
-      "price": "60",
-      "usługa": "montaż czegoś innego",
-      "miasto": "Warszawa"
-    },
-    {
-      "name": "Tadeusz S",
-      "price": "160",
-      "usługa": "montaż gniazdka",
-      "miasto": "Gdańsk"
-    },
-    {
-      "name": "Marian P",
-      "price": "50",
-      "usługa": "montaż gniazdka",
-      "miasto": "Poznań"
-    },
-    {
-      "name": "Andrzej W",
-      "price": "960",
-      "usługa": "montaż gniazdka",
-      "miasto": "Warszawa"
-    },
-    {
-      "name": "Mateusz K",
-      "price": "160",
-      "usługa": "montaż gniazdka",
-      "miasto": "Wrocław"
-    }
-  ],
-
   "Hydraulicy": [
     {
-      "name": "Jan Kowalski",
-      "price": "60",
-      "usługa": "montaż czegoś innego",
-      "miasto": "Warszawa"
+      "name": "Jan K",
+      "price": "70",
+      "usługa": "Montaż armatury",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Tadeusz S",
-      "price": "160",
-      "usługa": "montaż jj",
-      "miasto": "Gdańsk"
+      "price": "40",
+      "usługa": "Naprawa awarii",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Marian P",
       "price": "50",
-      "usługa": "montaż kk",
-      "miasto": "Poznań"
+      "usługa": "Uzdatnianie wody",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Andrzej W",
-      "price": "960",
-      "usługa": "montaż jj",
-      "miasto": "Warszawa"
+      "price": "60",
+      "usługa": "Cieknący kran",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "60",
+      "usługa": "Uzdatnianie wody",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "20",
+      "usługa": "Naprawa spłuczki",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Robert K",
+      "price": "50",
+      "usługa": "Cieknący kran",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Mateusz K",
       "price": "160",
-      "usługa": "montaż gniazdka",
-      "miasto": "Wrocław"
+      "usługa": "Montaż armatury",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "100",
+      "usługa": "Cieknący kran",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz S",
+      "price": "111",
+      "usługa": "Wymiana spłuczki",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     }
   ],
 
+  "Elektrycy": [
+    {
+      "name": "Jan K",
+      "price": "70",
+      "usługa": "Montaż instalacji odgromowej",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Tadeusz S",
+      "price": "40",
+      "usługa": "Instalacja zabezpieczeń przeciwpożarowych",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Marian P",
+      "price": "50",
+      "usługa": "Pomiar instalacji elektrycznej",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Andrzej W",
+      "price": "60",
+      "usługa": "Pomiar instalacji odgromowej",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "60",
+      "usługa": "Montaż instalacji odgromowej",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "20",
+      "usługa": "Pomiar instalacji odgromowej",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Robert K",
+      "price": "50",
+      "usługa": "Pomiar instalacji odgromowej",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "160",
+      "usługa": "Montaż gniazdka",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "100",
+      "usługa": "Montaż instalacji odgromowej",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz S",
+      "price": "111",
+      "usługa": "Montaż gniazdka",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
+    }
+  ],
   "Slusarze": [
     {
-      "name": "Jan Kowalski",
-      "price": "60",
-      "usługa": "Dorabianie kluczy",
-      "miasto": "Warszawa"
+      "name": "Jan K",
+      "price": "70",
+      "usługa": "Naprawa zamków",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Tadeusz S",
-      "price": "160",
-      "usługa": "Awaryjne otwierania samochodu",
-      "miasto": "Gdańsk"
+      "price": "40",
+      "usługa": "Zabezpieczanie zamków",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 77 33"
     },
     {
       "name": "Marian P",
       "price": "50",
-      "usługa": "Awaryjne otwieranie drzwi",
-      "miasto": "Wrocław"
+      "usługa": "Naprawa drzwi samochodowych",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 699 36 33"
     },
     {
       "name": "Andrzej W",
-      "price": "960",
-      "usługa": "Dorabianie kluczy",
-      "miasto": "Warszawa"
+      "price": "60",
+      "usługa": "Naprawa drzwi domowych",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 88 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "60",
+      "usługa": "Naprawa drzwi samochodowych",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 289 00 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "20",
+      "usługa": "Zabezpieczenie zamków",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Robert K",
+      "price": "50",
+      "usługa": "Naprawa zamków",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Mateusz K",
       "price": "160",
-      "usługa": "Awaryjne otwieranie drzwi",
-      "miasto": "Wrocław"
+      "usługa": "Naprawa zamków",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "100",
+      "usługa": "Wymiana zamków",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz S",
+      "price": "111",
+      "usługa": "Wymiana zamków",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     }
   ],
-
   "Nianie": [
     {
-      "name": "Jan Kowalski",
-      "price": "60",
-      "usługa": "opieka nad dzieckiem",
-      "miasto": "Warszawa"
+      "name": "Jan K",
+      "price": "70",
+      "usługa": "Opieka nad dzieckiem",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Tadeusz S",
-      "price": "160",
-      "usługa": "opieka nad dzieckiem",
-      "miasto": "Gdańsk"
+      "price": "40",
+      "usługa": "Opieka nad dzieckiem plus obiad",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Marian P",
       "price": "50",
-      "usługa": "montaż kk",
-      "miasto": "Poznań"
+      "usługa": "Opieka nad dzieckiem do 5 lat",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Andrzej W",
-      "price": "960",
-      "usługa": "montaż jj",
-      "miasto": "Warszawa"
+      "price": "60",
+      "usługa": "Opieka nad nastolatkiem",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "60",
+      "usługa": "Opieka nad dzieckiem",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "20",
+      "usługa": "Opieka nad dzieckiem do 5 lat",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Robert K",
+      "price": "50",
+      "usługa": "Opieka nad dzieckiem",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Mateusz K",
       "price": "160",
-      "usługa": "monkkkkkkniazdka",
-      "miasto": "Wrocław"
+      "usługa": "Opieka nad dzieckiem",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "100",
+      "usługa": "Opieka nad dzieckiem",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz S",
+      "price": "111",
+      "usługa": "Opieka nad dzieckiem do 5 lat",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     }
   ],
-
   "Ogrodnicy": [
     {
-      "name": "Jan Kowalski",
-      "price": "60",
-      "usługa": "Opieka nad ogrodem",
-      "miasto": "Warszawa"
+      "name": "Jan K",
+      "price": "70",
+      "usługa": "Opieka nad roślinami",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Tadeusz S",
-      "price": "160",
-      "usługa": "montaż jj",
-      "miasto": "Gdańsk"
+      "price": "40",
+      "usługa": "Opieka nad ogrodem",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Marian P",
       "price": "50",
-      "usługa": "montaż kk",
-      "miasto": "Poznań"
+      "usługa": "Podlewania kwiatów",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Andrzej W",
-      "price": "960",
-      "usługa": "montaż jj",
-      "miasto": "Warszawa"
+      "price": "60",
+      "usługa": "Podlewania kwiatów",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "60",
+      "usługa": "Opieka nad ogrodem",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "20",
+      "usługa": "Opieka nad ogrodem",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Robert K",
+      "price": "50",
+      "usługa": "Opieka nad roślinami",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 789 33 33"
     },
     {
       "name": "Mateusz K",
       "price": "160",
-      "usługa": "montaż gniazdka",
-      "miasto": "Wrocław"
+      "usługa": "Opieka nad ogrodem",
+      "miasto": "Poznań",
+      "numer_kontaktowy": "22 789 33 33"
+    },
+    {
+      "name": "Mateusz K",
+      "price": "100",
+      "usługa": "Opieka nad ogrodem",
+      "miasto": "Warszawa",
+      "numer_kontaktowy": "22 789 66 93"
+    },
+    {
+      "name": "Mateusz S",
+      "price": "111",
+      "usługa": "Podlewania kwiatów",
+      "miasto": "Wrocław",
+      "numer_kontaktowy": "22 709 33 33"
     }
   ]
 }
